@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/b7ddd6d81f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="logo.png"/>
+    <title>EduFord</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="l.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-align-justify" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our certificate & online programs for 2021</h1>
+  </section>
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="g.jpg">
+          <h>Our certificate & online programs for 2021</h>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ante litora gravida varius pharetra dictumst class magna ut in elementum mattis elementum condimentum lorem tortor duis platea enim sem ultrices hendrerit hac blandit ipsum molestie per sollicitudin fringilla ut. Vivamus molestie nunc fames quam pharetra neque, commodo cras, ante lorem quam massa molestie venenatis malesuada taciti dictum turpis ante phasellus, cubilia nulla vehicula ante suscipit vestibulum vulputate semper pharetra.</p>
+            <br>
+            <p>Malesuada rutrum cras, morbi, fusce posuere nec semper potenti risus non, tincidunt, amet scelerisque tincidunt cras fusce litora ante praesent, sagittis tristique eget nullam id curae risus habitasse consectetur sit. Elementum nunc dictum lobortis himenaeos taciti mattis tincidunt donec, fringilla lectus faucibus mauris pellentesque volutpat tempor justo at ipsum primis nunc cubilia ut et malesuada sagittis accumsan tristique bibendum suscipit.
+            </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ante litora gravida varius pharetra dictumst class magna ut in elementum mattis elementum condimentum lorem tortor duis platea enim sem ultrices hendrerit hac blandit ipsum molestie per sollicitudin fringilla ut. Vivamus molestie nunc fames quam pharetra neque, commodo cras, ante lorem quam massa molestie venenatis malesuada taciti dictum turpis ante phasellus, cubilia nulla vehicula ante suscipit vestibulum vulputate semper pharetra.</p>
+            <br>
+            <p>Malesuada rutrum cras, morbi, fusce posuere nec semper potenti risus non, tincidunt, amet scelerisque tincidunt cras fusce litora ante praesent, sagittis tristique eget nullam id curae risus habitasse consectetur sit. Elementum nunc dictum lobortis himenaeos taciti mattis tincidunt donec, fringilla lectus faucibus mauris pellentesque volutpat tempor justo at ipsum primis nunc cubilia ut et malesuada sagittis accumsan tristique bibendum suscipit.
+            </p>
+
+            <div class="comment-box">
+              <h3>Leave a Comment</h3>
+              <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="btn btn-1">Post Comment</button>
+              </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Catagories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>23</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>29</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>36</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>26</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>39</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>27</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>37</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis beatae quas libero ea dolorem nobis, <br> a quo, cum aut reiciendis hic. Quo ut quos amet molestias, hic perferendis aut iste!</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Mahmudul Hasan Tanvir</p>
+  </section>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right='0'
+    }
+    function hideMenu(){
+      navLinks.style.right='-200px'
+    }
+</script>
+</body>
+</html>

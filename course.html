@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/b7ddd6d81f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="logo.png"/>
+    <title>EduFord</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="l.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-align-justify" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+  </section>
+
+  <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aspernatur quibusdam iure perferendis provident assumenda inventore voluptatem doloribus quas, libero ab atque ipsam nulla neque necessitatibus ducimus hic. Repudiandae, exercitationem.</p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediet</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus aperiam, dicta in, tempore ea exercitationem quos laborum harum dolorem, necessitatibus iusto perspiciatis alias corrupti ipsum veniam accusamus similique porro?</p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus aperiam, dicta in, tempore ea exercitationem quos laborum harum dolorem, necessitatibus iusto perspiciatis alias corrupti ipsum veniam accusamus similique porro?</p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus aperiam, dicta in, tempore ea exercitationem quos laborum harum dolorem, necessitatibus iusto perspiciatis alias corrupti ipsum veniam accusamus similique porro?</p>
+        </div>
+      </div>
+
+  </section>
+
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis id laboriosam debitis voluptate perspiciatis nam consequatur repellat rem architecto! Aspernatur tempore ullam sint voluptatem quae odio veniam error delectus.</p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="b.jpg">
+        <h3>World Class Liabrary</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur quas labore delectus voluptate neque dolore. Reprehenderit ea, tempore accusantium soluta voluptate, laboriosam, animi assumenda illum asperiores harum ipsam placeat.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="p.jpg">
+        <h3>Largest Playgorund</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur quas labore delectus voluptate neque dolore. Reprehenderit ea, tempore accusantium soluta voluptate, laboriosam, animi assumenda illum asperiores harum ipsam placeat.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="f.jpg">
+        <h3>Tasty And Healthy Food</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur quas labore delectus voluptate neque dolore. Reprehenderit ea, tempore accusantium soluta voluptate, laboriosam, animi assumenda illum asperiores harum ipsam placeat.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis beatae quas libero ea dolorem nobis, <br> a quo, cum aut reiciendis hic. Quo ut quos amet molestias, hic perferendis aut iste!</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Mahmudul Hasan Tanvir</p>
+  </section>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right='0'
+    }
+    function hideMenu(){
+      navLinks.style.right='-200px'
+    }
+</script>
+</body>
+</html>

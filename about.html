@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/b7ddd6d81f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="logo.png"/>
+    <title>EduFord</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="l.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-align-justify" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+  </section>
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>We are the world's largest university</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum molestias labore animi, vel quasi nihil quaerat delectus praesentium quidem illo, corrupti molestiae, fugit at explicabo voluptas ipsam architecto veritatis obcaecati.
+        Labore dignissimos sit distinctio voluptatibus eum incidunt architecto illo corporis error explicabo dicta voluptate ex repudiandae atque vel doloribus, possimus, laudantium ipsum ipsa. Ipsum facilis quod nobis iusto fugit maxime.
+        Facilis tempore quas ducimus suscipit maiores eligendi veniam id nostrum harum est cumque dolores quam, sunt labore error mollitia quidem. Eligendi nisi rerum itaque sapiente laborum harum, cumque voluptate ipsum?</p>
+        <a href="#" class="btn btn-1">Explore Now</a>
+      </div>
+      <div class="about-col">
+        <img src="t2.jpg">
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis beatae quas libero ea dolorem nobis, <br> a quo, cum aut reiciendis hic. Quo ut quos amet molestias, hic perferendis aut iste!</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Mahmudul Hasan Tanvir</p>
+  </section>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right='0'
+    }
+    function hideMenu(){
+      navLinks.style.right='-200px'
+    }
+</script>
+</body>
+</html>
